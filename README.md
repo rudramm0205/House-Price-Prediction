@@ -1,1 +1,8 @@
 # House-Price-Prediction
+Using the House Price dataset, we run through numerical and graphical descriptive statistics, to get a high level view of the data along with identification of the response & predictor variables which we use to build the predictive model later on. 
+It is worthwhile mentioning that the dataset is having a lot data quality issues which may have been due to failure of proper observation recording or other challenges as the case may be. 
+We ist tried with complete case analysis to address this but was left with no data due to high missing values almost in all observations. 
+Accordingly we have used data imputation technique as suitable for the continuous or categorical data to address the missing values and make it usable by the respective R functions. Subsequently we test the multiple predictor variables for multicollinearity. 
+This is due to the fact as multiple predictors exists in the dataset and there is a linear relationship among two or more of these predictors. 
+We have used Linear model and Random Forest Method to Predict the house price.
+To Conclude the study included by the examination of the “House Price Prediction” derived from such a Global Central database in order to obtain a Linear Model in explaining average house prices and also through Random Forest Method what affects the House price most. In this report we have covered almost the Analysis of the given data and also we have used Linear model and Round Forest Method which is the bestfit model. we have covered the linear regression and implemented it to predict the House Price. The Both the Model seems to be fit to predict the House Prices based on the Adj R- Squared Value, Error Value and also pass 2 of the Assumptions Check.
